@@ -254,7 +254,7 @@ def index():
 </body>
 </html>
 ```
-![Sample 6](https://raw.githubusercontent.com/piinalpin/flask-crud/master/Image-6.PNG)
+
 
 23. Then modify `home.html` to add action button that will __UPDATE__ and __DELETE__ data from database using id from collection. On `href="form-update/{{ x.id }}"` it will be route to `/form-update/1` to GET parameters.
 ```html
@@ -265,7 +265,7 @@ def index():
     <title>Flask Crud</title>
 </head>
 <body>
-<h3>Form Add Mahasiswa</h3>
+<h3>Form Add</h3>
 <form action="/" method="POST">
     <table>
         <tr>
